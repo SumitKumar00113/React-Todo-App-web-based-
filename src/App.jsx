@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <Wrapper>
-      <div className="w-screen h-screen bg-slate-700 flex p-10">
+     <div className="w-screen h-screen bg-slate-700 flex flex-col md:flex-row p-2 md:p-10">
         <Create />
         <Read  />
       </div>

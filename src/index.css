@@ -5,5 +5,60 @@ body,html{
 }
 body{
     color: white;
+    background-color: rgb(49,65,88);
 }
-
+/* Mobile view for width <= 412px */
+@media (max-width: 412px) {
+  .create-container {
+    width: 95% !important;
+    padding: 10px !important;
+  }
+  .create-container h1 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  .create-container input {
+    font-size: 1rem !important;
+  }
+  .create-container button {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 6px 0;
+    background: #2563eb; /* blue-600 */
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 8px;
+    transition: background 0.2s;
+  }
+   .read-container {
+    width: 95% !important;
+    padding: 10px !important;
+    margin: 0 auto !important;
+  }
+  .create-container h1,
+  .read-container h1 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  .create-container input,
+  .read-container input {
+    font-size: 1rem !important;
+  }
+  .create-container button,
+  .read-container button {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 6px 0;
+    background: #2563eb; /* blue-600 */
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 8px;
+    transition: background 0.2s;
+  }
+  .create-container button:hover,
+  .read-container button:hover {
+    background: #1e40af; /* blue-800 */
+  }
+}

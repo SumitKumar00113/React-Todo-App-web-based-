@@ -29,7 +29,7 @@ const Create = () => {
 
   return (
     <>
-      <div className="w-[55%] p-15">
+      <div className="create-container w-[55%] p-15">
         <h1 className="text-7xl font-thin mb-10">
           Set <span className="text-red-400"> Reminders </span>For <br />
           Task
