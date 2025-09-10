@@ -29,8 +29,8 @@ const Create = () => {
 
   return (
     <>
-      <div className="w-[60%] p-15">
-        <h1 className="text-6xl font-thin mb-10">
+      <div className="w-[55%] p-15">
+        <h1 className="text-7xl font-thin mb-10">
           Set <span className="text-red-400"> Reminders </span>For <br />
           Task
         </h1>
@@ -47,18 +47,9 @@ const Create = () => {
             </small>
           )}
           <br /> <br />
-          <input
-            onChange={(event) => setChekbox(event.target.checked)}
-            id="checkbox"
-            className="scale-150 "
-            type="checkbox"
-          />
-          <label htmlFor="checkbox" className="text-xl px-2">
-            Completed
-          </label>
           <br />
           <br />
-          <button className="px-10 py-2 border rounded mt-5 active:scale-105 ">
+          <button className="px-10 py-2 border rounded mt-1 active:scale-105 ">
             Create Todo
           </button>
         </form>

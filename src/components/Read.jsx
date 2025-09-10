@@ -28,7 +28,7 @@ const Read = () => {
 
   return (
     <>
-      <div className="w-[40%] p-10">
+      <div className="w-[45%] p-15">
         <h1 className=" text-6xl font-thin mb-10">
           <span className="text-emerald-400">Pending</span> Todo
         </h1>
